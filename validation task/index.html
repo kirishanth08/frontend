@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="cont1">
+            <h1> Login to coding market </h1>
+            <form id="loginForm" onsubmit="return validateForm()">
+                <div class="lab"> <label for="username">Eail or Username</label></div>
+                <input type="text" id="username" class="textbox">
+            </div>
+            <div class="cont2">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="textbox2">
+                <p id="passwordError" class="error"></p>
+            </div>
+            <p id="usernameError" class="error"></p>
+            <button type="submit">Login</button>
+            </form>
+        </div>
+    <script src="style.js"></script>
+</body>
+</html>
