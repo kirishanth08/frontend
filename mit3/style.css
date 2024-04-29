@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:  hsl(0, 100%, 74%);
+    background-image:url(assets/bg-intro-desktop.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: white;
+    height: 500px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    background: none;
+    margin-left: 130px;
+    
+  
+}
+.sub2{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 350px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.but1{
+    margin-bottom: 10px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+.in1{
+    margin-bottom: 30px;
+    padding: 15px 15px 15px 15px ;
+    border-radius:5px ;
+    font-size: 25px;
+    
+}
+.in2{
+    margin-bottom: 30px;
+    padding: 15px 15px 15px 15px ;
+    border-radius:5px ;
+    font-size: 25px;
+  
+}
+
+.in3{
+    margin-bottom: 30px;
+    padding: 15px 15px 15px 15px ;
+    border-radius:5px ;
+    font-size: 25px;
+    
+}
+
+.in4{
+    margin-bottom: 30px;
+    padding: 15px 15px 15px 15px ;
+    border-radius:5px ;
+    font-size: 25px;
+    
+}
+.but2{
+    padding: 15px 15px 15px 15px ;
+        margin-bottom: 10px;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        
+    
+}
+.sub2 p{
+    font-size: 10px;
+}
+span{
+    color: red;
+    font-size: 10px;
+}
+.main{
+    width: 400px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+    font-size: 30px;
+}
+.para{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: start;
+    width: 500px;
+    margin-left: 100px;
+}
+p{
+    text-align: center;
+}
+
