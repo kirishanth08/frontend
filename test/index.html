@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont"> 
+    <div class="sub">
+     <img src="assets/icon-star.svg" alt="" class="star">
+    </div> 
+    <div class="texts">
+     <h2>how do we do</h2>  
+     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae maxime consequuntur? Quia quo atque odit consectetur ipsa adipisci</p> 
+    </div>
+    <div class="buts">
+        <button class="but1" >1</button>
+        <button class="but1" >2</button>
+        <button class="but1" >3</button>
+        <button class="but1" >4</button>
+        <button class="but1"   id="butss" onclick="color()">5</button>
+
+    </div>
+    <button class="subm" id="butts"  onclick="redirect()">submit</button>
+    </div>
+
+    <script>
+  var butt = document.getElementById("butss")
+  function color(){
+    butt.style.backgroundColor = "hsl(25, 97%, 53%)"
+  }
+
+  var name = docukment.getElementById("butts")
+  function redirect(){
+    window.location.href = "demo.html";
+  }
+    </script>
+</body>
+</html>
