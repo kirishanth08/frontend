@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.main-frame{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+}
+label{
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+input{
+    height: 58px;
+    border-radius: 5px;
+}
+.submit{
+    height: 33px;
+    width: 10%;
+    margin-top: 10px;
+    background-color: rgb(55, 55, 255);
+    color:white;
+    border-radius: 2px;
+}
+hr{
+    margin-top: 30px;
+}
+#adding{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+} 
+li{
+    list-style: none;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid 2px;
+    padding-left: 30px;
+}
+li button{
+    margin-left:1000px;
+    border-color: red;
+    color: red;
+}
